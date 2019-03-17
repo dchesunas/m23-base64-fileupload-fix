@@ -22,7 +22,7 @@
     "composer-exit-on-patch-failure": false,
     "patches": {
       "magento/module-ui": {
-        "#19988 issue: Uploader base 64 is undefined fix": "vendor/dchesunas/patches/base64-uploader-fix.diff"
+        "#19988 issue: Uploader base 64 is undefined fix": "vendor/dchesunas/m23-base64-fileupload-fix/patches/base64-uploader-fix.diff"
       }
     }
   }
