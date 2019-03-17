@@ -5,6 +5,8 @@
   "keywords": ["magento","magento 2.3"],
   "homepage": "https://github.com/dchesunas/m23-base64-fileupload-fix",
   "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "authors": [
     {
       "name": "Dmitriy Chesunas",
