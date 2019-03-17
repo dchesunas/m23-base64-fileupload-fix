@@ -1,0 +1,27 @@
+{
+  "name": "dchesunas/m23-base64-fileupload-fix",
+  "type": "library",
+  "description": "Fix Base64 dependency in fileupload admin component",
+  "keywords": ["magento","magento 2.3"],
+  "homepage": "https://github.com/dchesunas/m23-base64-fileupload-fix",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitriy Chesunas",
+      "email": "d.chesunas@yandex.ru",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "cweagans/composer-patches": "*"
+  },
+  "extra": {
+    "composer-exit-on-patch-failure": false,
+    "patches": {
+      "magento/module-ui": {
+        "#19988 issue: Uploader base 64 is undefined fix": "patches/base64-uploader-fix.diff"
+      }
+    }
+  }
+}
